@@ -15,7 +15,7 @@ import edu.wpi.first.cameraserver.CameraServer;
 import edu.wpi.first.wpilibj.Timer;
 import edu.wpi.first.wpilibj.Encoder;
 
-public class Hazelnut extends TimedRobot {
+public class Hazelnut2 extends TimedRobot {
   private static final String kDefaultAuto = "Default";
   private static final String kCustomAuto = "My Auto";
   private String m_autoSelected;
@@ -56,7 +56,7 @@ public class Hazelnut extends TimedRobot {
 
     leftTalon = new TalonSRX(0);
     rightTalon = new TalonSRX(1);
-   // drive = new DifferentialDrive(leftTalon, rightTalon);
+    //drive = new DifferentialDrive(leftTalon, rightTalon);
 
     frontUltrasonic = new Ultrasonic(8, 9);
 
